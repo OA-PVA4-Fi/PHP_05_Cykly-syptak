@@ -38,6 +38,11 @@ $city = array(
 	"Poland"=>"Warsaw"
 );
 
+foreach ($city as $key => $value) {
+	$num = 0;
+	echo '|'. $num+1 .' '. $key .' - '. $value .'	';
+}
+
 //reseni
 
 ?>

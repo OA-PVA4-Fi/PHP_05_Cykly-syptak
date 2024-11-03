@@ -17,6 +17,17 @@ $cars = array (
 	array("Land Rover",17,15)
 );
 
+
 //reseni
 
+$prodane = 0;
+$sklad = 0;
+
+foreach ($cars as $car) {
+    $prodane += $car[1];
+    $sklad += $car[2];
+}
+
+echo "Počet prodaných aut: " . $prodane . "<br>";
+echo "Počet aut na skladě: " . $sklad . "<br>";
 ?>
