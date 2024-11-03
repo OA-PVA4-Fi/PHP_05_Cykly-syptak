@@ -76,7 +76,10 @@ $bitcoinPrices = [
 ];
 
 // reseni:
-
+foreach ($bitcoinPrices as $value) {
+    $pocetBitcoinu = $pocetBitcoinu + 1 / 50 * $value;
+    echo $pocetBitcoinu .'<br>';
+}
 
 
 
